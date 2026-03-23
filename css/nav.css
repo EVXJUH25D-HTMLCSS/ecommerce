@@ -2,6 +2,11 @@ header {
   width: 100vw;
   padding: 1rem 1.5rem;
   box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-bottom: 1px solid hsl(0, 0%, 40%);
 }
 
 nav {
