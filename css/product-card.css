@@ -1,5 +1,6 @@
 .product-card {
   border: 1px solid hsl(0, 0%, 94%);
+  overflow: hidden;
 }
 
 .product-card-img-wrapper {
@@ -18,4 +19,13 @@
   margin: 0.5rem 0;
   color: hsl(0, 0%, 45%);
   font-size: 0.75rem;
+}
+
+.product-card img {
+  transition: 0.3s;
+}
+
+.product-card:hover img {
+  scale: 1.05;
+  transition: 0.3s;
 }
