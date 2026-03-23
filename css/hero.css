@@ -1,0 +1,30 @@
+#hero-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+
+/* Vänster sektion innanför hero */
+#hero-section > div:first-child {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero-section button {
+  font-weight: 500;
+  width: max-content;
+}
+
+#hero-section p {
+  font-size: 0.85rem;
+  color: hsl(0, 0%, 45%);
+}
+
+h1 {
+  font-weight: 400;
+}
