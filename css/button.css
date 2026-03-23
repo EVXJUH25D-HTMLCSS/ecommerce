@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.45rem 0.65rem;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: hsl(0, 0%, 90%);
+}
