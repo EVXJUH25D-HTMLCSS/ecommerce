@@ -1,3 +1,7 @@
+.product-grid-section {
+  margin-top: 2.5rem;
+}
+
 .product-grid-header {
   display: flex;
   justify-content: space-between;

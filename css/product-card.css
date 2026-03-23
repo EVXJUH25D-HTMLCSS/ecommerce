@@ -1,0 +1,21 @@
+.product-card {
+  border: 1px solid hsl(0, 0%, 94%);
+}
+
+.product-card-img-wrapper {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.product-info {
+  padding: 0.65rem 0.95rem;
+}
+
+.product-info h3 {
+  margin: 0.5rem 0;
+}
+
+.product-info p {
+  margin: 0.5rem 0;
+  color: hsl(0, 0%, 45%);
+  font-size: 0.75rem;
+}
