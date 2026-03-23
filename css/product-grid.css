@@ -1,0 +1,15 @@
+.product-grid-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-grid-header a {
+  color: black;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 0.5rem;
+}
